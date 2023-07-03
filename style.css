@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* NavBar begins */
+
+/* logo  */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("/resources/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* box1  */
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-first{
+    margin-left: 14px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+.border{
+    border:1.5px solid transparent;
+
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* search bar  */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 5px; 
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+
+/* NavBar Ends */
+
+/* navbar2 */
+
+.navbar2{
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+}
+
+.hamburger{
+    font-size: 20px;
+    display: flex;
+    height: 39px;
+    width: 58px;
+    padding: 8px 9px;
+}
+
+.hamburger i{
+    margin-top: 1px;
+}
+
+.hamburger span{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.service-menu{
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    width: 100%;    
+}
+
+.service-item{
+    margin: 5px;
+    font-size: 16px;    
+}
+
+.deals{
+    display: flex;
+    font-size: 16px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* navbar2 ends  */
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("/resources/hero_image.jpg");
+    height: 360px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}  
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* hero-section-ends */
+
+/* shop section  */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    /* height: 100%; */
+}
+
+.box{
+    /* border: 2px solid black; */
+    height:330px;
+    background-color: white;
+    /* width: 23%; */
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.box-image{
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+/* shop section ends  */
+
+/* footer  */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85 rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul{
+    margin-top: 30px;
+}
+
+.foot-panel2 ul p{
+    font-size: 1.3rem;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+/* /footer ends  */
